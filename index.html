@@ -67,9 +67,36 @@
     /* ====== DEIN "BNO Premium Form Styling" kommt HIER rein ======
        WICHTIG: Nur hier im <head> in diesem <style> – NICHT irgendwo unten im <body>
     */
-    /*
-    #sib-container, .sib-form, .sib-container--large { ... }
-    */
+    #sib-container,
+.sib-form,
+.sib-container--large {
+  background: #000000 !important;
+}
+
+#sib-container input {
+  background: #111111 !important;
+  border: 1px solid #444444 !important;
+  color: #ffffff !important;
+}
+
+#sib-container input::placeholder {
+  color: #aaaaaa !important;
+}
+
+#sib-container .entry__specification {
+  color: #cccccc !important;
+}
+
+#sib-container button {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+
+#sib-container button:hover {
+  background: #dddddd !important;
+}
   </style>
 </head>
 
